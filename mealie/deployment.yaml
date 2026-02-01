@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: mealie
-  name: mealie
+  name: mealie-app
   namespace: mealie
 spec:
   replicas: 1
